@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[var(--card)] border-t border-[var(--border)] pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Info */}
           <div>
             <h4 className="text-2xl font-bold uppercase tracking-widest text-white mb-6">The Classic</h4>
@@ -24,13 +24,26 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Quick Links */}
+          <div>
+            <h4 className="text-sm font-semibold text-white uppercase tracking-widest mb-6">Quick Links</h4>
+            <ul className="space-y-3">
+              <li><a href="#about" className="text-[var(--muted-foreground)] hover:text-white transition-colors">Our Story</a></li>
+              <li><a href="#services" className="text-[var(--muted-foreground)] hover:text-white transition-colors">Services</a></li>
+              <li><a href="#team" className="text-[var(--muted-foreground)] hover:text-white transition-colors">Meet the Team</a></li>
+              <li><a href="#gallery" className="text-[var(--muted-foreground)] hover:text-white transition-colors">Gallery</a></li>
+              <li><a href="#testimonials" className="text-[var(--muted-foreground)] hover:text-white transition-colors">Reviews</a></li>
+              <li><a href="#booking" className="text-[var(--muted-foreground)] hover:text-white transition-colors">Book Appointment</a></li>
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-widest mb-6">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-[var(--muted-foreground)]">
                 <MapPin className="w-5 h-5 text-[var(--accent)] flex-shrink-0" />
-                <span>123 Grooming Avenue, Suite 100<br />New York, NY 10001</span>
+                <span>123 Vintage Avenue, Suite 100<br />New York, NY 10012</span>
               </li>
               <li className="flex items-center gap-3 text-[var(--muted-foreground)]">
                 <Phone className="w-5 h-5 text-[var(--accent)] flex-shrink-0" />

@@ -17,9 +17,12 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
+    { name: "Team", href: "#team" },
     { name: "Gallery", href: "#gallery" },
-    { name: "Booking", href: "#booking" },
+    { name: "Reviews", href: "#testimonials" },
+    { name: "Visit Us", href: "#location" },
   ];
 
   return (

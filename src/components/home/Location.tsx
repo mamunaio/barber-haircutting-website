@@ -51,7 +51,7 @@ export default function Location() {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-white mb-1 uppercase tracking-wider">Contact</h4>
-                  <p className="text-gray-400 font-light">(555) 123-4567</p>
+                  <p className="text-gray-400 font-light">(555) 123-4567<br/>mamunahmed24.ma#@gmail.com</p>
                 </div>
               </div>
             </div>

@@ -51,7 +51,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-[var(--muted-foreground)]">
                 <Mail className="w-5 h-5 text-[var(--accent)] flex-shrink-0" />
-                <span>hello@theclassicbarber.com</span>
+                <span>mamunahmed24.ma#@gmail.com</span>
               </li>
             </ul>
           </div>
